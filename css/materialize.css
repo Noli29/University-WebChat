@@ -2528,6 +2528,7 @@ input[type=range] + .thumb {
   font-feature-settings: 'liga'; }
 
 .container {
+  /*text-align: center;*/
   margin: 0 auto;
   max-width: 1280px;
   width: 90%; }
@@ -3602,13 +3603,13 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #90c004;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #90c004; }
 
 .btn-floating {
   display: inline-block;
@@ -6448,3 +6449,6 @@ header .left {
 
 .m-page {
   margin: 0 auto; }
+
+.r-page {
+  margin-top: 25px; }
