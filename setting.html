@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>WebChat</title>
+    <title>Налаштування</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <!--  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>-->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+
     <link href="css/materialize.css" rel="stylesheet">
 
 
@@ -21,34 +21,25 @@
 </head>
 <body>
 
-<div>
+<div class="wrapper">
     <header>
         <nav class="deep-purple lighten-1">
             <div class="container nav-wrapper">
                 <a href="index.html" class="brand-logo left">Головна</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#modal1" >Авторизація</a></li>
-                    <li><a href="registration.html">Реєстрація</a></li>
+                    <li><a href="calendar.html">Календар</a></li>
+                    <li><a href="chat.html">Чат</a></li>
+                    <li><a href="setting.html">Налаштування</a></li>
+                    <li><a href="#">Вихід</a></li>
                 </ul>
             </div>
         </nav>
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-            </div>
-        </div>
     </header>
-    <main class="r-page">
+    <main class="s-page">
         <div class="container">
-            <h3>Форма реєстрації</h3>
+            <h3>Налаштування</h3>
             <div class="row">
-
-                <form class="col s12">
+                <form class="col s12 row">
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="material-icons prefix">account_circle</i>
@@ -59,6 +50,27 @@
                             <i class="material-icons prefix">account_circle</i>
                             <input id="icon_prefix-last" type="text" class="validate">
                             <label for="icon_prefix">Прізвище</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form action="#">
+                            <div class="file-field input-field col s6">
+                                <div class="btn">
+                                    <span>Додати аватар</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="input-field col s6">
+                            <select>
+                                <option value="" disabled selected>Група</option>
+                                <option value="1">КС-13</option>
+                                <option value="2">КЕ-12</option>
+                                <option value="3">КМ-14</option>
+                            </select>
                         </div>
                     </div>
                     <div class="row">
@@ -74,7 +86,10 @@
                         </div>
                     </div>
                 </form>
-                <a href="home-page.html" class="waves-effect waves-light btn">Зареєструватись</a>
+                <div class="button-center">
+                    <a href="home-page.html" class="waves-effect waves-light btn">Зберегти</a>
+                </div>
+
             </div>
         </div>
     </main>
@@ -102,8 +117,8 @@
 
 </div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
