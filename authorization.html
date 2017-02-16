@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>WebChat</title>
+    <title>Реєстрація</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
     <!--Import Google Icon Font-->
@@ -27,17 +27,33 @@
             <div class="container nav-wrapper">
                 <a href="index.html" class="brand-logo left">Головна</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="calendar.html">Календар</a></li>
-                    <li><a href="chat.html">Чат</a></li>
-                    <li><a href="setting.html">Налаштування</a></li>
-                    <li><a href="index.html">Вихід</a></li>
+                    <li><a href="authorization.html" >Авторизація</a></li>
+                    <li><a href="registration.html">Реєстрація</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="r-page">
         <div class="container">
+            <h3>Авторизація</h3>
+            <div class="row">
 
+                <form class="col s12 row">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_email" type="email" class="validate">
+                            <label for="icon_email">Email</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="icon_password" type="password" class="validate">
+                            <label for="icon_password">Пароль</label>
+                        </div>
+                    </div>
+                </form>
+                <a href="home-page.html" class="waves-effect waves-light btn">Вхід</a>
+            </div>
         </div>
     </main>
     <footer class="page-footer deep-purple lighten-1">
