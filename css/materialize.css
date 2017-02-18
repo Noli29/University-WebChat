@@ -6457,6 +6457,29 @@ html {
 .m-page {
   margin: 0 auto; }
 
+.chat-page div .chat {
+  float: left;
+  width: 78%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 15px; }
+  .chat-page div .chat .panel-footer #block1 {
+    float: left;
+    width: 90%; }
+  .chat-page div .chat .panel-footer #block2 {
+    float: left;
+    width: 10%; }
+    .chat-page div .chat .panel-footer #block2 button {
+      padding: 0 20px 0; }
+
+.chat-page div .online {
+  float: left;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px; }
+
 .r-page {
   margin-top: 25px; }
 
