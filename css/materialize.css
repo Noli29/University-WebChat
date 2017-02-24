@@ -6454,14 +6454,11 @@ html {
 .wrapper {
   overflow: hidden; }
 
-.m-page {
-  margin: 0 auto; }
-
 .chat-page div .chat {
   float: left;
   width: 78%;
-  border: 1px solid black;
-  border-radius: 15px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
   margin-right: 15px;
   padding: 15px; }
   .chat-page div .chat .panel-footer #block1 {
@@ -6471,20 +6468,30 @@ html {
     float: left;
     width: 10%; }
     .chat-page div .chat .panel-footer #block2 button {
-      padding: 0 20px 0; }
+      padding: 0 20px 0;
+      border-radius: 60px; }
+      .chat-page div .chat .panel-footer #block2 button:hover {
+        background-color: #E8754C; }
 
 .chat-page div .online {
   float: left;
   width: 20%;
-  border: 1px solid black;
-  border-radius: 15px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
   padding: 15px; }
 
 .r-page {
   margin-top: 25px; }
+  .r-page .button-hover a:hover {
+    background-color: #E8754C; }
+
+main .authorization-page div .button-hover a:hover {
+  background-color: #E8754C; }
 
 .s-page h3 {
   text-align: center; }
 
 .s-page .button-center {
   text-align: center; }
+  .s-page .button-center a:hover {
+    background-color: #E8754C; }

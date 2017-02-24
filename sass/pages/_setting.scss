@@ -1,5 +1,10 @@
 .s-page{
   h3{text-align: center;}
 
-  .button-center{text-align: center;}
+  .button-center{
+    text-align: center;
+    a:hover{
+      background-color: #E8754C;
+    }
+  }
 }

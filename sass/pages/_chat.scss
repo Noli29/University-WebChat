@@ -6,8 +6,8 @@
     float: left;
     width: 78%;
 
-    border: 1px solid black;
-    border-radius: 15px;
+    border: 1px solid #bababa;
+    border-radius: 5px;
 
     margin-right: 15px;
     padding: 15px;
@@ -23,6 +23,11 @@
         width: 10%;
         button{
           padding: 0 20px 0;
+          border-radius: 60px;
+          &:hover{
+            background-color: #E8754C;
+            //background-color: #E8E373;
+          }
         }
       }
     }
@@ -32,8 +37,8 @@
     float: left;
     width: 20%;
 
-    border: 1px solid black;
-    border-radius: 15px;
+    border: 1px solid #bababa;
+    border-radius: 5px;
 
     padding: 15px;
 
