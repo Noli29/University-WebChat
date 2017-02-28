@@ -1,53 +1,51 @@
 .chat-page{
+
   .rooms{
-    background-color: #E8AB73;
-    padding: 15px;
+    background-color: #0277BD;
+    color: #fff;
+    //position: fixed; /* Фиксированное положение */
+    //right: 10px; /* Расстояние от правого края окна браузера */
+    //top: 20%; /* Расстояние сверху */
+    //padding: 10px; /* Поля вокруг текста */
+    //border: 1px solid #bababa;
+    //border-radius: 5px;
+
+    padding: 0 5px 0;
     text-align: center;
     a{
-      color: #000;
+      color: #fff;
       &:hover{
-        color: #7e57c2;
         text-decoration: underline;
       }
     }
-    #tabs ul {
-      margin-left: 0;
-      padding-left: 0;
-      display: inline;
+    #tabs{
+      padding-top: 5px;
     }
 
-    #tabs ul li {
-      margin-left: 0;
-      margin-bottom: 0;
-      padding: 2px 15px 5px;
-      border: 1px solid #7e57c2;
-      list-style: none;
-      display: inline;
-    }
-
-    #tabs ul li.here {
-      border-bottom: 1px solid #ffc;
-      list-style: none;
-      display: inline;
-    }
   }
   .panel-heading{
-    background-color: #82D179;
+    color: #fff;
+    background-color: #0277BD;
     padding: 5px;
+  }
+  .row{
+    margin-bottom: auto;
   }
   div .chat{
     float: left;
     width: 85%;
 
     border: 1px solid #bababa;
-    border-radius: 5px;
-    padding: 15px;
+    .panel-body{
+      overflow: auto;
+      height: 425px;
+      padding: 0 18px 0;
+    }
     .panel-footer{
+      padding: 15px 20px 0;
       #block1{
         float: left;
         width: 94%;
-
-        //margin-right: 15px;
       }
       #block2{
         float: left;
@@ -65,13 +63,15 @@
 
   }
   div .online{
+    .panel-body{
+      overflow: auto;
+      height: 497px;
+      padding: 0 18px 0;
+    }
     float: left;
     width: 15%;
 
     border: 1px solid #bababa;
-    border-radius: 5px;
-
-    padding: 15px;
 
     text-align: center;
   }

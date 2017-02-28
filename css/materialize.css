@@ -6455,59 +6455,56 @@ html {
   overflow: hidden; }
 
 .chat-page .rooms {
-  background-color: #E8AB73;
-  padding: 15px;
+  background-color: #0277BD;
+  color: #fff;
+  padding: 0 5px 0;
   text-align: center; }
   .chat-page .rooms a {
-    color: #000; }
+    color: #fff; }
     .chat-page .rooms a:hover {
-      color: #7e57c2;
       text-decoration: underline; }
-  .chat-page .rooms #tabs ul {
-    margin-left: 0;
-    padding-left: 0;
-    display: inline; }
-  .chat-page .rooms #tabs ul li {
-    margin-left: 0;
-    margin-bottom: 0;
-    padding: 2px 15px 5px;
-    border: 1px solid #7e57c2;
-    list-style: none;
-    display: inline; }
-  .chat-page .rooms #tabs ul li.here {
-    border-bottom: 1px solid #ffc;
-    list-style: none;
-    display: inline; }
+  .chat-page .rooms #tabs {
+    padding-top: 5px; }
 
 .chat-page .panel-heading {
-  background-color: #82D179;
+  color: #fff;
+  background-color: #0277BD;
   padding: 5px; }
+
+.chat-page .row {
+  margin-bottom: auto; }
 
 .chat-page div .chat {
   float: left;
   width: 85%;
-  border: 1px solid #bababa;
-  border-radius: 5px;
-  padding: 15px; }
-  .chat-page div .chat .panel-footer #block1 {
-    float: left;
-    width: 94%; }
-  .chat-page div .chat .panel-footer #block2 {
-    float: left;
-    width: 6%; }
-    .chat-page div .chat .panel-footer #block2 button {
-      padding: 0 20px 0;
-      border-radius: 60px; }
-      .chat-page div .chat .panel-footer #block2 button:hover {
-        background-color: #E8754C; }
+  border: 1px solid #bababa; }
+  .chat-page div .chat .panel-body {
+    overflow: auto;
+    height: 425px;
+    padding: 0 18px 0; }
+  .chat-page div .chat .panel-footer {
+    padding: 15px 20px 0; }
+    .chat-page div .chat .panel-footer #block1 {
+      float: left;
+      width: 94%; }
+    .chat-page div .chat .panel-footer #block2 {
+      float: left;
+      width: 6%; }
+      .chat-page div .chat .panel-footer #block2 button {
+        padding: 0 20px 0;
+        border-radius: 60px; }
+        .chat-page div .chat .panel-footer #block2 button:hover {
+          background-color: #E8754C; }
 
 .chat-page div .online {
   float: left;
   width: 15%;
   border: 1px solid #bababa;
-  border-radius: 5px;
-  padding: 15px;
   text-align: center; }
+  .chat-page div .online .panel-body {
+    overflow: auto;
+    height: 497px;
+    padding: 0 18px 0; }
 
 .r-page {
   margin-top: 25px; }
