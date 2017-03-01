@@ -25,7 +25,7 @@
             <div class="col-md-4 online">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <p><i class="material-icons">perm_identity</i>Користувачі</p>
+                        <p><a href="home-page.html"><i class="material-icons" style="color: #ff6d00;">fast_rewind</i></a><i class="material-icons">perm_identity</i>Користувачі</p>
                     </div>
                     <div class="panel-body">
                         <ul class="media-list">
@@ -368,7 +368,7 @@
                                 <input type="text" class="form-control" placeholder="Введіть повідомлення" />
                             </div>
                             <div id="block2">
-                                <button class="btn btn-info" type="button">
+                                <button class="btn btn-info " type="button">
                                     <i class="material-icons">comment</i>
                                 </button>
                             </div>
@@ -394,12 +394,15 @@
                                     <a href="#modal1">
                                         <i class="material-icons" >room</i>Кімнати:
                                     </a>
-
                                 </div>
-
                             </div>
                             <div class="input-field col s2">
-                                <i class="material-icons prefix">playlist_add</i>
+                                <div id="tabs-two">
+                                    <a href="#modal2">
+                                        <i class="material-icons" >playlist_add</i>Додати кімнату:
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </form>
@@ -408,7 +411,7 @@
         </div>
     </main>
 </div>
-<!-- Modal Structure -->
+<!-- Modal-one Structure -->
 <div id="modal1" class="modal">
     <div class="modal-content">
         <ul class="collection with-header">
@@ -419,9 +422,24 @@
             <li class="collection-item"><div>ЩОсь<a href="chat.html" class="secondary-content"><i class="material-icons">room</i></a></div></li>
         </ul>
     </div>
-    <!--<div class="modal-footer">-->
-    <!--<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>-->
-    <!--</div>-->
+</div>
+<!-- Modal-two Structure -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="input_text" type="text">
+                        <label for="input_text">Введіть назву</label>
+                        <a class="light-blue darken-3 btn">
+                            <i class="material-icons right">playlist_add</i>Додати
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

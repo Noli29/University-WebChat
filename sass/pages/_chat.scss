@@ -1,14 +1,14 @@
+body{
+  div#modal2.modal.open{
+    width: 450px;
+    height: 210px;
+  }
+}
 .chat-page{
 
   .rooms{
     background-color: #0277BD;
     color: #fff;
-    //position: fixed; /* Фиксированное положение */
-    //right: 10px; /* Расстояние от правого края окна браузера */
-    //top: 20%; /* Расстояние сверху */
-    //padding: 10px; /* Поля вокруг текста */
-    //border: 1px solid #bababa;
-    //border-radius: 5px;
 
     padding: 0 5px 0;
     text-align: center;
@@ -21,6 +21,9 @@
     #tabs{
       padding-top: 5px;
     }
+    #tabs-two{
+      padding-top: 5px;
+    }
 
   }
   .panel-heading{
@@ -31,7 +34,7 @@
   .row{
     margin-bottom: auto;
   }
-  div .chat{
+  div.chat{
     float: left;
     width: 85%;
 
@@ -54,7 +57,7 @@
           padding: 0 20px 0;
           border-radius: 60px;
           &:hover{
-            background-color: #E8754C;
+            background-color: #ff6d00;
             //background-color: #E8E373;
           }
         }
@@ -62,7 +65,7 @@
     }
 
   }
-  div .online{
+  div.online{
     .panel-body{
       overflow: auto;
       height: 497px;
