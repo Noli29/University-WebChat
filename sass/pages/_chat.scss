@@ -1,7 +1,15 @@
 body{
+  .fixed-action-btn{
+    left: 78%;
+    bottom: 13px;
+  }
   div#modal2.modal.open{
     width: 450px;
     height: 210px;
+  }
+  div#modal3.modal.open{
+    width: 450px;
+    height: 700px;
   }
 }
 .chat-page{
@@ -23,6 +31,9 @@ body{
     }
     #tabs-two{
       padding-top: 5px;
+      .fixed-action-btn{
+        width: 63px;
+      }
     }
 
   }

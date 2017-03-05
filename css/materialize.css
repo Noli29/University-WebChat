@@ -6454,9 +6454,17 @@ html {
 .wrapper {
   overflow: hidden; }
 
+body .fixed-action-btn {
+  left: 78%;
+  bottom: 13px; }
+
 body div#modal2.modal.open {
   width: 450px;
   height: 210px; }
+
+body div#modal3.modal.open {
+  width: 450px;
+  height: 700px; }
 
 .chat-page .rooms {
   background-color: #0277BD;
@@ -6471,6 +6479,8 @@ body div#modal2.modal.open {
     padding-top: 5px; }
   .chat-page .rooms #tabs-two {
     padding-top: 5px; }
+    .chat-page .rooms #tabs-two .fixed-action-btn {
+      width: 63px; }
 
 .chat-page .panel-heading {
   color: #fff;

@@ -398,11 +398,16 @@
                             </div>
                             <div class="input-field col s2">
                                 <div id="tabs-two">
-                                    <a href="#modal2">
-                                        <i class="material-icons" >playlist_add</i>Додати кімнату:
-                                    </a>
+                                    <div class="fixed-action-btn horizontal">
+                                        <a class="btn-floating btn-large teal">
+                                            <i class="large material-icons">mode_edit</i>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#modal2" class="btn-floating orange accent-4" title="Додати кімнату"><i class="material-icons">playlist_add</i></a></li>
+                                            <li><a href="#modal3" class="btn-floating green accent-4" title="Додати користувачів"><i class="material-icons">add</i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </form>
@@ -432,13 +437,31 @@
                     <div class="input-field col s12">
                         <input id="input_text" type="text">
                         <label for="input_text">Введіть назву</label>
-                        <a class="light-blue darken-3 btn">
+                        <button type="submit" class="light-blue darken-3 btn">
                             <i class="material-icons right">playlist_add</i>Додати
-                        </a>
+                        </button>
                     </div>
                 </div>
             </form>
         </div>
+    </div>
+</div>
+<!-- Modal-three Structure -->
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <h4>Вибрати користувачів
+        </h4>
+        <div class="input-field col s6">
+            <select multiple>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">VAsya</option>
+                <option value="2">DIn</option>
+                <option value="3">Inna</option>
+            </select>
+        </div>
+        <button type="submit" class="light-blue darken-3 btn" style="margin-top: 15px">
+            <i class="material-icons right">playlist_add</i>Додати
+        </button>
     </div>
 </div>
 
