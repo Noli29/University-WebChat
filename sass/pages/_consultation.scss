@@ -1,8 +1,18 @@
 .consultation-page {
-  background-color: pink;
+
   h3 {
-    color: pink;
     text-align: center;
+  }
+
+  ul {
+    li {
+      a {
+        &:hover {
+          color: #0091ea;
+          text-decoration: underline;
+        }
+      }
+    }
   }
 
 }

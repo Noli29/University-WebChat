@@ -15,6 +15,7 @@
     <!--  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>-->
 
     <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
 
 
@@ -35,10 +36,26 @@
             </div>
         </nav>
     </header>
-    <main class="consultation-page">
+    <main class="teacher-consultation-page">
         <div class="container">
-            <h3>Список консультацій</h3>
+            <h3>Консультації</h3>
             <div class="row">
+                <h5>Список моїх консультацій</h5>
+                <ul class="collection">
+                    <li class="collection-item">Назва:</li>
+                    <li class="collection-item">Назва:</li>
+                    <li class="collection-item">Назва:</li>
+                    <li class="collection-item">Назва:</li>
+                </ul>
+                <ul class="collection">
+                    <li class="collection-item">Дата:</li>
+                    <li class="collection-item">Дата:</li>
+                    <li class="collection-item">Дата:</li>
+                    <li class="collection-item">Дата:</li>
+                </ul>
+                <div class="horizontal" >
+                    <a href="#modal1" class="btn-floating btn-large waves-effect waves-light  light-blue accent-4"><i class="material-icons">add</i></a>
+                </div>
             </div>
         </div>
     </main>
@@ -58,7 +75,34 @@
             </div>
         </div>
     </footer>
+</div>
 
+<!-- Modal-one Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <h5>Створити консультацію</h5>
+                    <div class="input-field col s6">
+                        <input id="name-teacher" type="text" class="validate">
+                        <label for="name-teacher">Викладач: </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Назва консультації: </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="date" type="text" class="validate">
+                        <label for="date">Дата: </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <button type="submit" class="waves-effect waves-light btn">Створити</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

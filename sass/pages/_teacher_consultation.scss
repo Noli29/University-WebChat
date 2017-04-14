@@ -1,0 +1,36 @@
+.teacher-consultation-page {
+
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    li {
+      a {
+        &:hover {
+          color: #0091ea;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  div {
+    .horizontal {
+      float: left;
+      margin: 0 1.5%;
+      width: 30%;
+    }
+  }
+}
+
+#modal1 {
+  .modal-teacher {
+    button {
+      background-color: #0091ea;
+      &:hover {
+        background-color: #e99a80;
+      }
+    }
+  }
+}

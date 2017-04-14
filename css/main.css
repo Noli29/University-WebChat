@@ -27,19 +27,16 @@ html {
 
 .r-page {
   margin-top: 25px; }
-  .r-page .button-center {
-    text-align: center; }
-    .r-page .button-center .btn {
-      background-color: #0091ea; }
-    .r-page .button-center .btn:hover {
-      background-color: #e99a80; }
-
-.authorization-page .button-center {
-  text-align: center; }
-  .authorization-page .button-center .btn {
+  .r-page .button-center .btn {
     background-color: #0091ea; }
-  .authorization-page .button-center .btn:hover {
+  .r-page .button-center .btn:hover {
     background-color: #e99a80; }
+
+.authorization-page .button-center .btn {
+  background-color: #0091ea; }
+
+.authorization-page .button-center .btn:hover {
+  background-color: #e99a80; }
 
 body .fixed-action-btn {
   left: 78%;
@@ -118,11 +115,29 @@ body div#modal3.modal.open {
   text-align: center; }
   .s-page .button-center .btn {
     background-color: #0091ea; }
-  .s-page .button-center .btn:hover {
-    background-color: #e99a80; }
+    .s-page .button-center .btn:hover {
+      background-color: #e99a80; }
 
-.consultation-page {
-  background-color: pink; }
-  .consultation-page h3 {
-    color: pink;
-    text-align: center; }
+.consultation-page h3 {
+  text-align: center; }
+
+.consultation-page ul li a:hover {
+  color: #0091ea;
+  text-decoration: underline; }
+
+.teacher-consultation-page h3 {
+  text-align: center; }
+
+.teacher-consultation-page ul li a:hover {
+  color: #0091ea;
+  text-decoration: underline; }
+
+.teacher-consultation-page div .horizontal {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%; }
+
+#modal1 .modal-teacher button {
+  background-color: #0091ea; }
+  #modal1 .modal-teacher button:hover {
+    background-color: #e99a80; }
