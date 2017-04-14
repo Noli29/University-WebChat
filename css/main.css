@@ -56,7 +56,8 @@ body div#modal3.modal.open {
 .chat-page .rooms {
   background-color: #004d40;
   color: #fff;
-  padding: 0 5px 0;
+  height: 82px;
+  padding: 0 150px 0;
   text-align: center; }
   .chat-page .rooms a {
     color: #fff; }
@@ -77,35 +78,35 @@ body div#modal3.modal.open {
 .chat-page .row {
   margin-bottom: auto; }
 
-.chat-page div.chat {
+.chat-page div .chat {
   float: left;
   width: 85%;
   border: 1px solid #bababa; }
-  .chat-page div.chat .panel-body {
+  .chat-page div .chat .panel-body {
     overflow: auto;
     height: 425px;
     padding: 0 18px 0; }
-  .chat-page div.chat .panel-footer {
+  .chat-page div .chat .panel-footer {
     padding: 15px 20px 0; }
-    .chat-page div.chat .panel-footer #block1 {
+    .chat-page div .chat .panel-footer #block1 {
       float: left;
       width: 94%; }
-    .chat-page div.chat .panel-footer #block2 {
+    .chat-page div .chat .panel-footer #block2 {
       float: left;
       width: 6%; }
-      .chat-page div.chat .panel-footer #block2 button {
+      .chat-page div .chat .panel-footer #block2 button {
         background-color: #0091ea;
         padding: 0 20px 0;
         border-radius: 60px; }
-        .chat-page div.chat .panel-footer #block2 button:hover {
+        .chat-page div .chat .panel-footer #block2 button:hover {
           background-color: #e99a80; }
 
-.chat-page div.online {
+.chat-page div .online {
   float: left;
   width: 15%;
   border: 1px solid #bababa;
   text-align: center; }
-  .chat-page div.online .panel-body {
+  .chat-page div .online .panel-body {
     overflow: auto;
     height: 497px;
     padding: 0 18px 0; }
@@ -119,3 +120,9 @@ body div#modal3.modal.open {
     background-color: #0091ea; }
   .s-page .button-center .btn:hover {
     background-color: #e99a80; }
+
+.consultation-page {
+  background-color: pink; }
+  .consultation-page h3 {
+    color: pink;
+    text-align: center; }
