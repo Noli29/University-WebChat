@@ -1,10 +1,17 @@
-.s-page{
-  h3{text-align: center;}
-
-  .button-center{
+.s-page {
+  h3 {
     text-align: center;
-    a:hover{
-      background-color: #ff6d00;
+  }
+
+  .button-center {
+    text-align: center;
+
+    .btn{
+      background-color: #0091ea;
+    }
+
+    .btn:hover {
+      background-color: #e99a80;
     }
   }
 }

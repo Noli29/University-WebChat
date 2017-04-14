@@ -1,8 +1,15 @@
-.r-page{
+.r-page {
   margin-top: 25px;
-  .button-hover{
-    a:hover{
-      background-color: #ff6d00;
+
+  .button-center {
+    text-align: center;
+
+    .btn{
+      background-color: #0091ea;
+    }
+
+    .btn:hover {
+      background-color: #e99a80;
     }
   }
 }

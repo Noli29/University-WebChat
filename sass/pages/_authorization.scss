@@ -1,11 +1,15 @@
 .authorization-page{
 
-  .button-hover{
+  .button-center {
+    text-align: center;
 
-    a:hover{
-      background-color: #ff6d00;
+    .btn{
+      background-color: #0091ea;
     }
 
+    .btn:hover {
+      background-color: #e99a80;
+    }
   }
 
 }

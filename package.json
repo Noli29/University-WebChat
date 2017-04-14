@@ -9,16 +9,21 @@
     "type": "git",
     "url": "git+https://github.com/Noli29/University-WebChat.git"
   },
-  "author": "",
+  "author": "Natasha Pavlenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Noli29/University-WebChat/issues"
   },
   "homepage": "https://github.com/Noli29/University-WebChat#readme",
-  "description": "",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^2.3.2"
-  }
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "description": ""
 }

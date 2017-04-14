@@ -1,0 +1,121 @@
+.h-page {
+  opacity: 100;
+  padding-top: 15px; }
+
+header .left {
+  padding-left: 80px; }
+
+.container {
+  margin: 0 auto; }
+
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table; }
+
+.container::after,
+.clearfix::after {
+  clear: both; }
+
+html {
+  -webkit-text-size-adjust: 100%; }
+
+.wrapper {
+  overflow: hidden; }
+
+.r-page {
+  margin-top: 25px; }
+  .r-page .button-center {
+    text-align: center; }
+    .r-page .button-center .btn {
+      background-color: #0091ea; }
+    .r-page .button-center .btn:hover {
+      background-color: #e99a80; }
+
+.authorization-page .button-center {
+  text-align: center; }
+  .authorization-page .button-center .btn {
+    background-color: #0091ea; }
+  .authorization-page .button-center .btn:hover {
+    background-color: #e99a80; }
+
+body .fixed-action-btn {
+  left: 78%;
+  bottom: 13px; }
+
+body div#modal2.modal.open {
+  width: 450px;
+  height: 210px; }
+
+body div#modal3.modal.open {
+  width: 450px;
+  height: 700px; }
+
+.chat-page .rooms {
+  background-color: #004d40;
+  color: #fff;
+  padding: 0 5px 0;
+  text-align: center; }
+  .chat-page .rooms a {
+    color: #fff; }
+    .chat-page .rooms a:hover {
+      text-decoration: underline; }
+  .chat-page .rooms #tabs {
+    padding-top: 5px; }
+  .chat-page .rooms #tabs-two {
+    padding-top: 5px; }
+    .chat-page .rooms #tabs-two .fixed-action-btn {
+      width: 63px; }
+
+.chat-page .panel-heading {
+  color: #fff;
+  background-color: #004d40;
+  padding: 5px; }
+
+.chat-page .row {
+  margin-bottom: auto; }
+
+.chat-page div.chat {
+  float: left;
+  width: 85%;
+  border: 1px solid #bababa; }
+  .chat-page div.chat .panel-body {
+    overflow: auto;
+    height: 425px;
+    padding: 0 18px 0; }
+  .chat-page div.chat .panel-footer {
+    padding: 15px 20px 0; }
+    .chat-page div.chat .panel-footer #block1 {
+      float: left;
+      width: 94%; }
+    .chat-page div.chat .panel-footer #block2 {
+      float: left;
+      width: 6%; }
+      .chat-page div.chat .panel-footer #block2 button {
+        background-color: #0091ea;
+        padding: 0 20px 0;
+        border-radius: 60px; }
+        .chat-page div.chat .panel-footer #block2 button:hover {
+          background-color: #e99a80; }
+
+.chat-page div.online {
+  float: left;
+  width: 15%;
+  border: 1px solid #bababa;
+  text-align: center; }
+  .chat-page div.online .panel-body {
+    overflow: auto;
+    height: 497px;
+    padding: 0 18px 0; }
+
+.s-page h3 {
+  text-align: center; }
+
+.s-page .button-center {
+  text-align: center; }
+  .s-page .button-center .btn {
+    background-color: #0091ea; }
+  .s-page .button-center .btn:hover {
+    background-color: #e99a80; }
