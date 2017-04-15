@@ -15,4 +15,13 @@
     }
   }
 
+  .search-consultation {
+    padding: 0 200px;
+
+    div {
+      .input-field, .col, .s8 {
+        width: 96%;
+      }
+    }
+  }
 }

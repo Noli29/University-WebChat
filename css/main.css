@@ -125,6 +125,11 @@ body div#modal3.modal.open {
   color: #0091ea;
   text-decoration: underline; }
 
+.consultation-page .search-consultation {
+  padding: 0 200px; }
+  .consultation-page .search-consultation div .input-field, .consultation-page .search-consultation div .col, .consultation-page .search-consultation div .s8 {
+    width: 96%; }
+
 /*teacher pages*/
 .teacher-consultation-page h3 {
   text-align: center; }
@@ -135,6 +140,11 @@ body div#modal3.modal.open {
 .teacher-consultation-page ul li .collection-date {
   float: right;
   width: 50%; }
+
+.teacher-consultation-page .search-consultation {
+  padding: 0 200px; }
+  .teacher-consultation-page .search-consultation div .input-field, .teacher-consultation-page .search-consultation div .col, .teacher-consultation-page .search-consultation div .s8 {
+    width: 96%; }
 
 .teacher-consultation-page div .horizontal {
   float: right; }
@@ -223,3 +233,23 @@ body div#modal3 .modal-content .groups {
     overflow: auto;
     height: 497px;
     padding: 0 18px 0; }
+
+/*admin pages*/
+.admin-consultation-page h3 {
+  text-align: center; }
+
+.admin-consultation-page .search-consultation {
+  padding: 0 200px; }
+  .admin-consultation-page .search-consultation div .input-field, .admin-consultation-page .search-consultation div .col, .admin-consultation-page .search-consultation div .s8 {
+    width: 96%; }
+
+.admin-consultation-page ul li a:hover {
+  color: #0091ea; }
+
+body div#modal .modal-content {
+  padding: 10px; }
+
+body div#modal button {
+  background-color: #0091ea; }
+  body div#modal button:hover {
+    background-color: #e99a80; }

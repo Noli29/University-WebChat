@@ -1,21 +1,7 @@
-.teacher-consultation-page {
+.admin-consultation-page {
 
   h3 {
     text-align: center;
-  }
-
-  ul {
-    li {
-      .collection-name {
-        //float: left;
-        width: 50%;
-      }
-
-      .collection-date {
-        float: right;
-        width: 50%;
-      }
-    }
   }
 
   .search-consultation {
@@ -28,20 +14,24 @@
     }
   }
 
-  div {
-    .horizontal {
-      float: right;
+  ul {
+    li {
+      a {
+        &:hover {
+          color: #0091ea;
+        }
+      }
     }
   }
+
 }
 
 body {
-  div#modal1 {
+  div#modal {
     .modal-content {
       padding: 10px;
     }
     button {
-      float: right;
       background-color: #0091ea;
       &:hover {
         background-color: #e99a80;
