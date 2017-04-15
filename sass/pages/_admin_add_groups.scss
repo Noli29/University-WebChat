@@ -1,0 +1,60 @@
+.admin-add-groups-page {
+
+  h3 {
+    text-align: center;
+  }
+
+  .search-consultation {
+    padding: 0 200px;
+
+    div {
+      .input-field, .col, .s8 {
+        width: 96%;
+      }
+    }
+  }
+
+  ul {
+    .collection, .collection-item.avatar {
+      min-height: 59px;
+      padding-left: 15px;
+    }
+
+    li {
+      a {
+        &:hover {
+          color: #0091ea;
+        }
+      }
+
+      .second-modal {
+        margin-right: 100px;
+      }
+    }
+  }
+
+}
+
+body {
+  div#modal-group1 {
+    width: 34%;
+    text-align: center;
+
+    .modal-content {
+      padding: 16px;
+
+      .row, .col.s6 {
+        width: 100%;
+      }
+    }
+
+    button {
+      //float: right;
+      background-color: #0091ea;
+      &:hover {
+        background-color: #e99a80;
+      }
+    }
+  }
+
+}

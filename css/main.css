@@ -253,3 +253,58 @@ body div#modal button {
   background-color: #0091ea; }
   body div#modal button:hover {
     background-color: #e99a80; }
+
+.admin-add-groups-page h3 {
+  text-align: center; }
+
+.admin-add-groups-page .search-consultation {
+  padding: 0 200px; }
+  .admin-add-groups-page .search-consultation div .input-field, .admin-add-groups-page .search-consultation div .col, .admin-add-groups-page .search-consultation div .s8 {
+    width: 96%; }
+
+.admin-add-groups-page ul .collection, .admin-add-groups-page ul .collection-item.avatar {
+  min-height: 59px;
+  padding-left: 15px; }
+
+.admin-add-groups-page ul li a:hover {
+  color: #0091ea; }
+
+.admin-add-groups-page ul li .second-modal {
+  margin-right: 100px; }
+
+body div#modal-group1 {
+  width: 34%;
+  text-align: center; }
+  body div#modal-group1 .modal-content {
+    padding: 16px; }
+    body div#modal-group1 .modal-content .row, body div#modal-group1 .modal-content .col.s6 {
+      width: 100%; }
+  body div#modal-group1 button {
+    background-color: #0091ea; }
+    body div#modal-group1 button:hover {
+      background-color: #e99a80; }
+
+.admin-add-users-page h3 {
+  text-align: center; }
+
+.admin-add-users-page .search-consultation {
+  padding: 0 200px; }
+  .admin-add-users-page .search-consultation div .input-field, .admin-add-users-page .search-consultation div .col, .admin-add-users-page .search-consultation div .s8 {
+    width: 96%; }
+
+.admin-add-users-page ul li a:hover {
+  color: #0091ea; }
+
+.admin-add-users-page ul li .second-modal {
+  margin-top: 30px; }
+
+body div#modal-users1 {
+  max-height: 80%;
+  width: 58%; }
+  body div#modal-users1 .modal-content {
+    padding: 16px; }
+  body div#modal-users1 button {
+    float: right;
+    background-color: #0091ea; }
+    body div#modal-users1 button:hover {
+      background-color: #e99a80; }
