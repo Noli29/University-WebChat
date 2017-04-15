@@ -42,16 +42,26 @@
             <div class="row">
                 <h5>Список моїх консультацій</h5>
                 <ul class="collection">
-                    <li class="collection-item">Назва:</li>
-                    <li class="collection-item">Назва:</li>
-                    <li class="collection-item">Назва:</li>
-                    <li class="collection-item">Назва:</li>
-                </ul>
-                <ul class="collection">
-                    <li class="collection-item">Дата:</li>
-                    <li class="collection-item">Дата:</li>
-                    <li class="collection-item">Дата:</li>
-                    <li class="collection-item">Дата:</li>
+                    <li class="collection-item">
+                        <span class="collection-name">Назва:</span>
+                        <span class="collection-date">Дата:</span>
+                    </li>
+                    <li class="collection-item">
+                        <span class="collection-name">Назва:</span>
+                        <span class="collection-date">Дата:</span>
+                    </li>
+                    <li class="collection-item">
+                        <span class="collection-name">Назва:</span>
+                        <span class="collection-date">Дата:</span>
+                    </li>
+                    <li class="collection-item">
+                        <span class="collection-name">Назва:</span>
+                        <span class="collection-date">Дата:</span>
+                    </li>
+                    <li class="collection-item">
+                        <span class="collection-name">Назва:</span>
+                        <span class="collection-date">Дата:</span>
+                    </li>
                 </ul>
                 <div class="horizontal" >
                     <a href="#modal1" class="btn-floating btn-large waves-effect waves-light  light-blue accent-4"><i class="material-icons">add</i></a>
@@ -96,10 +106,16 @@
                         <input id="date" type="text" class="validate">
                         <label for="date">Дата: </label>
                     </div>
-                    <div class="input-field col s6">
-                        <button type="submit" class="waves-effect waves-light btn">Створити</button>
+                    <div class="input-field col s12 m6">
+                        <select multiple>
+                            <option value="" disabled selected>Додати групу</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
                     </div>
                 </div>
+                <button type="submit" class="waves-effect waves-light btn">Створити</button>
             </form>
         </div>
     </div>

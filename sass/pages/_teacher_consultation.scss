@@ -6,27 +6,32 @@
 
   ul {
     li {
-      a {
-        &:hover {
-          color: #0091ea;
-          text-decoration: underline;
-        }
+      .collection-name {
+        //float: left;
+        width: 50%;
+      }
+
+      .collection-date {
+        float: right;
+        width: 50%;
       }
     }
   }
 
   div {
     .horizontal {
-      float: left;
-      margin: 0 1.5%;
-      width: 30%;
+      float: right;
     }
   }
 }
 
-#modal1 {
-  .modal-teacher {
+body {
+  div#modal1 {
+    .modal-content {
+      padding: 10px;
+    }
     button {
+      float: right;
       background-color: #0091ea;
       &:hover {
         background-color: #e99a80;

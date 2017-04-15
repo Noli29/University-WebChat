@@ -125,19 +125,101 @@ body div#modal3.modal.open {
   color: #0091ea;
   text-decoration: underline; }
 
+/*teacher pages*/
 .teacher-consultation-page h3 {
   text-align: center; }
 
-.teacher-consultation-page ul li a:hover {
-  color: #0091ea;
-  text-decoration: underline; }
+.teacher-consultation-page ul li .collection-name {
+  width: 50%; }
+
+.teacher-consultation-page ul li .collection-date {
+  float: right;
+  width: 50%; }
 
 .teacher-consultation-page div .horizontal {
-  float: left;
-  margin: 0 1.5%;
-  width: 30%; }
+  float: right; }
 
-#modal1 .modal-teacher button {
+body div#modal1 .modal-content {
+  padding: 10px; }
+
+body div#modal1 button {
+  float: right;
   background-color: #0091ea; }
-  #modal1 .modal-teacher button:hover {
+  body div#modal1 button:hover {
     background-color: #e99a80; }
+
+body .fixed-action-btn {
+  left: 78%;
+  bottom: 13px; }
+
+body div#modal2.modal.open {
+  width: 450px;
+  height: 210px; }
+
+body div#modal3.modal.open {
+  width: 405px;
+  height: 500px; }
+
+body div#modal3 .modal-content .users {
+  padding-bottom: 15px; }
+
+body div#modal3 .modal-content .groups {
+  padding-top: 25px; }
+
+.teacher-chat-page .rooms {
+  background-color: #004d40;
+  color: #fff;
+  height: 82px;
+  padding: 0 150px 0;
+  text-align: center; }
+  .teacher-chat-page .rooms a {
+    color: #fff; }
+    .teacher-chat-page .rooms a:hover {
+      text-decoration: underline; }
+  .teacher-chat-page .rooms #tabs {
+    padding-top: 5px; }
+  .teacher-chat-page .rooms #tabs-two {
+    padding-top: 5px; }
+    .teacher-chat-page .rooms #tabs-two .fixed-action-btn {
+      width: 63px; }
+
+.teacher-chat-page .panel-heading {
+  color: #fff;
+  background-color: #004d40;
+  padding: 5px; }
+
+.teacher-chat-page .row {
+  margin-bottom: auto; }
+
+.teacher-chat-page div .chat {
+  float: left;
+  width: 85%;
+  border: 1px solid #bababa; }
+  .teacher-chat-page div .chat .panel-body {
+    overflow: auto;
+    height: 425px;
+    padding: 0 18px 0; }
+  .teacher-chat-page div .chat .panel-footer {
+    padding: 15px 20px 0; }
+    .teacher-chat-page div .chat .panel-footer #block1 {
+      float: left;
+      width: 94%; }
+    .teacher-chat-page div .chat .panel-footer #block2 {
+      float: left;
+      width: 6%; }
+      .teacher-chat-page div .chat .panel-footer #block2 button {
+        background-color: #0091ea;
+        padding: 0 20px 0;
+        border-radius: 60px; }
+        .teacher-chat-page div .chat .panel-footer #block2 button:hover {
+          background-color: #e99a80; }
+
+.teacher-chat-page div .online {
+  float: left;
+  width: 15%;
+  border: 1px solid #bababa;
+  text-align: center; }
+  .teacher-chat-page div .online .panel-body {
+    overflow: auto;
+    height: 497px;
+    padding: 0 18px 0; }
